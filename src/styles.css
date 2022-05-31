@@ -1,0 +1,53 @@
+.App-container {
+  background-color: #e3e3e3;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.todo-container {
+  background-color: cornsilk;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.title {
+  text-align: center;
+}
+.timeLeftInHoursWarning {
+  border: 2px solid #ff0000;
+}
+.right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+  text-align: right;
+}
+.expired {
+  color: #ff0000;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.lineThr {
+  text-decoration: line-through;
+}
